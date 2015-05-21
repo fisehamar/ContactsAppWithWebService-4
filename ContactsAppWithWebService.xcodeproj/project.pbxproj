@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B44CEB7B1B0E89F300AEAE0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB7A1B0E89F300AEAE0F /* main.m */; };
+		B44CEB7E1B0E89F300AEAE0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB7D1B0E89F300AEAE0F /* AppDelegate.m */; };
+		B44CEB811B0E89F300AEAE0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB801B0E89F300AEAE0F /* ViewController.m */; };
+		B44CEB841B0E89F300AEAE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44CEB821B0E89F300AEAE0F /* Main.storyboard */; };
+		B44CEB861B0E89F300AEAE0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44CEB851B0E89F300AEAE0F /* Images.xcassets */; };
+		B44CEB891B0E89F300AEAE0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44CEB871B0E89F300AEAE0F /* LaunchScreen.xib */; };
+		B44CEB951B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB941B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B44CEB8F1B0E89F300AEAE0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B44CEB6D1B0E89F300AEAE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44CEB741B0E89F300AEAE0F;
+			remoteInfo = ContactsAppWithWebService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B44CEB751B0E89F300AEAE0F /* ContactsAppWithWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsAppWithWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44CEB791B0E89F300AEAE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44CEB7A1B0E89F300AEAE0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B44CEB7C1B0E89F300AEAE0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B44CEB7D1B0E89F300AEAE0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B44CEB7F1B0E89F300AEAE0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B44CEB801B0E89F300AEAE0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B44CEB831B0E89F300AEAE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B44CEB851B0E89F300AEAE0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B44CEB881B0E89F300AEAE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B44CEB8E1B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppWithWebServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44CEB931B0E89F300AEAE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44CEB941B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsAppWithWebServiceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B44CEB721B0E89F300AEAE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44CEB8B1B0E89F300AEAE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B44CEB6C1B0E89F300AEAE0F = {
+			isa = PBXGroup;
+			children = (
+				B44CEB771B0E89F300AEAE0F /* ContactsAppWithWebService */,
+				B44CEB911B0E89F300AEAE0F /* ContactsAppWithWebServiceTests */,
+				B44CEB761B0E89F300AEAE0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B44CEB761B0E89F300AEAE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B44CEB751B0E89F300AEAE0F /* ContactsAppWithWebService.app */,
+				B44CEB8E1B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B44CEB771B0E89F300AEAE0F /* ContactsAppWithWebService */ = {
+			isa = PBXGroup;
+			children = (
+				B44CEB7C1B0E89F300AEAE0F /* AppDelegate.h */,
+				B44CEB7D1B0E89F300AEAE0F /* AppDelegate.m */,
+				B44CEB7F1B0E89F300AEAE0F /* ViewController.h */,
+				B44CEB801B0E89F300AEAE0F /* ViewController.m */,
+				B44CEB821B0E89F300AEAE0F /* Main.storyboard */,
+				B44CEB851B0E89F300AEAE0F /* Images.xcassets */,
+				B44CEB871B0E89F300AEAE0F /* LaunchScreen.xib */,
+				B44CEB781B0E89F300AEAE0F /* Supporting Files */,
+			);
+			path = ContactsAppWithWebService;
+			sourceTree = "<group>";
+		};
+		B44CEB781B0E89F300AEAE0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B44CEB791B0E89F300AEAE0F /* Info.plist */,
+				B44CEB7A1B0E89F300AEAE0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B44CEB911B0E89F300AEAE0F /* ContactsAppWithWebServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				B44CEB941B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m */,
+				B44CEB921B0E89F300AEAE0F /* Supporting Files */,
+			);
+			path = ContactsAppWithWebServiceTests;
+			sourceTree = "<group>";
+		};
+		B44CEB921B0E89F300AEAE0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B44CEB931B0E89F300AEAE0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B44CEB741B0E89F300AEAE0F /* ContactsAppWithWebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44CEB981B0E89F300AEAE0F /* Build configuration list for PBXNativeTarget "ContactsAppWithWebService" */;
+			buildPhases = (
+				B44CEB711B0E89F300AEAE0F /* Sources */,
+				B44CEB721B0E89F300AEAE0F /* Frameworks */,
+				B44CEB731B0E89F300AEAE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactsAppWithWebService;
+			productName = ContactsAppWithWebService;
+			productReference = B44CEB751B0E89F300AEAE0F /* ContactsAppWithWebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B44CEB8D1B0E89F300AEAE0F /* ContactsAppWithWebServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44CEB9B1B0E89F300AEAE0F /* Build configuration list for PBXNativeTarget "ContactsAppWithWebServiceTests" */;
+			buildPhases = (
+				B44CEB8A1B0E89F300AEAE0F /* Sources */,
+				B44CEB8B1B0E89F300AEAE0F /* Frameworks */,
+				B44CEB8C1B0E89F300AEAE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B44CEB901B0E89F300AEAE0F /* PBXTargetDependency */,
+			);
+			name = ContactsAppWithWebServiceTests;
+			productName = ContactsAppWithWebServiceTests;
+			productReference = B44CEB8E1B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B44CEB6D1B0E89F300AEAE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Nutech;
+				TargetAttributes = {
+					B44CEB741B0E89F300AEAE0F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B44CEB8D1B0E89F300AEAE0F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B44CEB741B0E89F300AEAE0F;
+					};
+				};
+			};
+			buildConfigurationList = B44CEB701B0E89F300AEAE0F /* Build configuration list for PBXProject "ContactsAppWithWebService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B44CEB6C1B0E89F300AEAE0F;
+			productRefGroup = B44CEB761B0E89F300AEAE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B44CEB741B0E89F300AEAE0F /* ContactsAppWithWebService */,
+				B44CEB8D1B0E89F300AEAE0F /* ContactsAppWithWebServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B44CEB731B0E89F300AEAE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44CEB841B0E89F300AEAE0F /* Main.storyboard in Resources */,
+				B44CEB891B0E89F300AEAE0F /* LaunchScreen.xib in Resources */,
+				B44CEB861B0E89F300AEAE0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44CEB8C1B0E89F300AEAE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B44CEB711B0E89F300AEAE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44CEB811B0E89F300AEAE0F /* ViewController.m in Sources */,
+				B44CEB7E1B0E89F300AEAE0F /* AppDelegate.m in Sources */,
+				B44CEB7B1B0E89F300AEAE0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44CEB8A1B0E89F300AEAE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44CEB951B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B44CEB901B0E89F300AEAE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44CEB741B0E89F300AEAE0F /* ContactsAppWithWebService */;
+			targetProxy = B44CEB8F1B0E89F300AEAE0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B44CEB821B0E89F300AEAE0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44CEB831B0E89F300AEAE0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B44CEB871B0E89F300AEAE0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44CEB881B0E89F300AEAE0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B44CEB961B0E89F300AEAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B44CEB971B0E89F300AEAE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B44CEB991B0E89F300AEAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactsAppWithWebService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B44CEB9A1B0E89F300AEAE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactsAppWithWebService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B44CEB9C1B0E89F300AEAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContactsAppWithWebServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsAppWithWebService.app/ContactsAppWithWebService";
+			};
+			name = Debug;
+		};
+		B44CEB9D1B0E89F300AEAE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContactsAppWithWebServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsAppWithWebService.app/ContactsAppWithWebService";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B44CEB701B0E89F300AEAE0F /* Build configuration list for PBXProject "ContactsAppWithWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44CEB961B0E89F300AEAE0F /* Debug */,
+				B44CEB971B0E89F300AEAE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44CEB981B0E89F300AEAE0F /* Build configuration list for PBXNativeTarget "ContactsAppWithWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44CEB991B0E89F300AEAE0F /* Debug */,
+				B44CEB9A1B0E89F300AEAE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B44CEB9B1B0E89F300AEAE0F /* Build configuration list for PBXNativeTarget "ContactsAppWithWebServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44CEB9C1B0E89F300AEAE0F /* Debug */,
+				B44CEB9D1B0E89F300AEAE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B44CEB6D1B0E89F300AEAE0F /* Project object */;
+}
