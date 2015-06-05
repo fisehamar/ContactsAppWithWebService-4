@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		B44CEB7B1B0E89F300AEAE0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB7A1B0E89F300AEAE0F /* main.m */; };
 		B44CEB7E1B0E89F300AEAE0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB7D1B0E89F300AEAE0F /* AppDelegate.m */; };
-		B44CEB811B0E89F300AEAE0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB801B0E89F300AEAE0F /* ViewController.m */; };
 		B44CEB841B0E89F300AEAE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44CEB821B0E89F300AEAE0F /* Main.storyboard */; };
 		B44CEB861B0E89F300AEAE0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44CEB851B0E89F300AEAE0F /* Images.xcassets */; };
 		B44CEB891B0E89F300AEAE0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44CEB871B0E89F300AEAE0F /* LaunchScreen.xib */; };
 		B44CEB951B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB941B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m */; };
+		B44CEBA01B0E8A3200AEAE0F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEB9F1B0E8A3200AEAE0F /* Contact.m */; };
+		B44CEBA31B0E8B1B00AEAE0F /* ContactParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CEBA21B0E8B1B00AEAE0F /* ContactParser.m */; };
+		B46ED5EF1B0F773900107777 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46ED5EE1B0F773900107777 /* AddContactViewController.m */; };
+		B46ED5F11B0FAF6900107777 /* OneTymeAppIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B46ED5F01B0FAF6900107777 /* OneTymeAppIcon.jpg */; };
+		B48C83DA1B162FE50058A8FA /* JMLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C83D71B162FE50058A8FA /* JMLoginModel.m */; };
+		B48C83DB1B162FE50058A8FA /* JMContactUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C83D91B162FE50058A8FA /* JMContactUser.m */; };
+		B48C83E01B1630720058A8FA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C83DD1B1630720058A8FA /* LoginViewController.m */; };
+		B48C83E11B1630720058A8FA /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C83DF1B1630720058A8FA /* RegistrationViewController.m */; };
+		B4CC890F1B0F663B000499D9 /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CC890E1B0F663B000499D9 /* ContactListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,31 @@
 		B44CEB7A1B0E89F300AEAE0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B44CEB7C1B0E89F300AEAE0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B44CEB7D1B0E89F300AEAE0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B44CEB7F1B0E89F300AEAE0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B44CEB801B0E89F300AEAE0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B44CEB831B0E89F300AEAE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B44CEB851B0E89F300AEAE0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B44CEB881B0E89F300AEAE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B44CEB8E1B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppWithWebServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44CEB931B0E89F300AEAE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B44CEB941B0E89F300AEAE0F /* ContactsAppWithWebServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsAppWithWebServiceTests.m; sourceTree = "<group>"; };
+		B44CEB9E1B0E8A3200AEAE0F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		B44CEB9F1B0E8A3200AEAE0F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		B44CEBA11B0E8B1B00AEAE0F /* ContactParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactParser.h; sourceTree = "<group>"; };
+		B44CEBA21B0E8B1B00AEAE0F /* ContactParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactParser.m; sourceTree = "<group>"; };
+		B44CEBA41B0E8BA400AEAE0F /* ContactParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactParserDelegate.h; sourceTree = "<group>"; };
+		B46ED5EC1B0F76EA00107777 /* AddContactDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactDelegate.h; sourceTree = "<group>"; };
+		B46ED5ED1B0F773900107777 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		B46ED5EE1B0F773900107777 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		B46ED5F01B0FAF6900107777 /* OneTymeAppIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OneTymeAppIcon.jpg; sourceTree = "<group>"; };
+		B48C83D61B162FE50058A8FA /* JMLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMLoginModel.h; sourceTree = "<group>"; };
+		B48C83D71B162FE50058A8FA /* JMLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMLoginModel.m; sourceTree = "<group>"; };
+		B48C83D81B162FE50058A8FA /* JMContactUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMContactUser.h; sourceTree = "<group>"; };
+		B48C83D91B162FE50058A8FA /* JMContactUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMContactUser.m; sourceTree = "<group>"; };
+		B48C83DC1B1630720058A8FA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B48C83DD1B1630720058A8FA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B48C83DE1B1630720058A8FA /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		B48C83DF1B1630720058A8FA /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		B4CC890D1B0F663B000499D9 /* ContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListViewController.h; sourceTree = "<group>"; };
+		B4CC890E1B0F663B000499D9 /* ContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +108,24 @@
 			children = (
 				B44CEB7C1B0E89F300AEAE0F /* AppDelegate.h */,
 				B44CEB7D1B0E89F300AEAE0F /* AppDelegate.m */,
-				B44CEB7F1B0E89F300AEAE0F /* ViewController.h */,
-				B44CEB801B0E89F300AEAE0F /* ViewController.m */,
+				B44CEB9E1B0E8A3200AEAE0F /* Contact.h */,
+				B44CEB9F1B0E8A3200AEAE0F /* Contact.m */,
+				B44CEBA11B0E8B1B00AEAE0F /* ContactParser.h */,
+				B44CEBA21B0E8B1B00AEAE0F /* ContactParser.m */,
+				B44CEBA41B0E8BA400AEAE0F /* ContactParserDelegate.h */,
+				B46ED5EC1B0F76EA00107777 /* AddContactDelegate.h */,
+				B48C83DC1B1630720058A8FA /* LoginViewController.h */,
+				B48C83DD1B1630720058A8FA /* LoginViewController.m */,
+				B48C83DE1B1630720058A8FA /* RegistrationViewController.h */,
+				B48C83DF1B1630720058A8FA /* RegistrationViewController.m */,
+				B4CC890D1B0F663B000499D9 /* ContactListViewController.h */,
+				B4CC890E1B0F663B000499D9 /* ContactListViewController.m */,
+				B46ED5ED1B0F773900107777 /* AddContactViewController.h */,
+				B46ED5EE1B0F773900107777 /* AddContactViewController.m */,
+				B48C83D61B162FE50058A8FA /* JMLoginModel.h */,
+				B48C83D71B162FE50058A8FA /* JMLoginModel.m */,
+				B48C83D81B162FE50058A8FA /* JMContactUser.h */,
+				B48C83D91B162FE50058A8FA /* JMContactUser.m */,
 				B44CEB821B0E89F300AEAE0F /* Main.storyboard */,
 				B44CEB851B0E89F300AEAE0F /* Images.xcassets */,
 				B44CEB871B0E89F300AEAE0F /* LaunchScreen.xib */,
@@ -96,6 +137,7 @@
 		B44CEB781B0E89F300AEAE0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B46ED5F01B0FAF6900107777 /* OneTymeAppIcon.jpg */,
 				B44CEB791B0E89F300AEAE0F /* Info.plist */,
 				B44CEB7A1B0E89F300AEAE0F /* main.m */,
 			);
@@ -199,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46ED5F11B0FAF6900107777 /* OneTymeAppIcon.jpg in Resources */,
 				B44CEB841B0E89F300AEAE0F /* Main.storyboard in Resources */,
 				B44CEB891B0E89F300AEAE0F /* LaunchScreen.xib in Resources */,
 				B44CEB861B0E89F300AEAE0F /* Images.xcassets in Resources */,
@@ -219,7 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B44CEB811B0E89F300AEAE0F /* ViewController.m in Sources */,
+				B48C83DA1B162FE50058A8FA /* JMLoginModel.m in Sources */,
+				B4CC890F1B0F663B000499D9 /* ContactListViewController.m in Sources */,
+				B46ED5EF1B0F773900107777 /* AddContactViewController.m in Sources */,
+				B44CEBA01B0E8A3200AEAE0F /* Contact.m in Sources */,
+				B48C83DB1B162FE50058A8FA /* JMContactUser.m in Sources */,
+				B48C83E01B1630720058A8FA /* LoginViewController.m in Sources */,
+				B44CEBA31B0E8B1B00AEAE0F /* ContactParser.m in Sources */,
+				B48C83E11B1630720058A8FA /* RegistrationViewController.m in Sources */,
 				B44CEB7E1B0E89F300AEAE0F /* AppDelegate.m in Sources */,
 				B44CEB7B1B0E89F300AEAE0F /* main.m in Sources */,
 			);
@@ -416,6 +466,7 @@
 				B44CEB9A1B0E89F300AEAE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44CEB9B1B0E89F300AEAE0F /* Build configuration list for PBXNativeTarget "ContactsAppWithWebServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +475,7 @@
 				B44CEB9D1B0E89F300AEAE0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
